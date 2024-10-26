@@ -1,0 +1,88 @@
+---------------olive green shades----------------------
+:root{
+    --light-green-1: #556b2f;
+    --light-green-2:#4d602a;
+    --light-green-3:#445626;
+    --dark-green-1:#3b4b21;
+    --dark-green-2:#33401c;
+    --dark-green-3:#2b3618;
+    --darker-green-1: #222b13;
+    --darker-green-2:#1a200e;
+    --darker-green-3:#111509;
+    --darkest-green-1:#080b05;
+}
+
+#profile-pic{
+  border-radius: 50%;
+}
+
+::selection{
+  background-color: #3b4b21;
+}
+
+.--darker-green-1{
+  background-color: #33401c;
+  color: white;
+}
+
+.--dark-green-2{
+  background-color:#1a200e;
+}
+
+.--darker-green-3{
+  background-color: #2b3618;; 
+}
+
+.--light-green-2{
+  background-color: #4d602a;
+  color: white;
+}
+
+/*------------------------------------------------------  */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+  
+}
+
+#mySidebar{
+  z-index: 3; 
+  width: 300px; 
+  font-weight: bold;
+}
+
+#myOverlay{
+   cursor: pointer;
+}
+
+#w3-hide-large{
+  margin-top: 83px;
+}
+
+#w3-main{
+  margin-left: 300px;
+}
+
+#modal01{
+  padding-top: 0;
+}
+
+#w3-content{
+  max-width: 600px;
+}
+
+.w3-third img {
+  margin-bottom: -6px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.w3-third img:hover {
+  opacity: 1;
+}
+
